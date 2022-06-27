@@ -18,7 +18,7 @@ const isLocalhost = Boolean(
 
 // by default, say it's localhost
 const oauth = {
-  domain: 'xxx.auth.us-east-2.amazoncognito.com',
+  domain: 'amplifyposts56c4a84f-56c4a84f-dev.auth.us-west-1.amazoncognito.com',
   scope: ['phone', 'email', 'profile', 'openid', 'aws.cognito.signin.user.admin'],
   redirectSignIn: 'http://localhost:3000/',
   redirectSignOut: 'http://localhost:3000/',
