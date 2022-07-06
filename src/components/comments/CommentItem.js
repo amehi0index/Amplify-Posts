@@ -37,7 +37,7 @@ const CommentItem = ({ comment, postId }) => {
     })
 
         //navigate(`/userpostitem/${postId}`)  
-        navigate("/") 
+        navigate('/') 
     }
 
     // async function fetchPost(id) {

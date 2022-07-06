@@ -8,9 +8,9 @@ import Comments from '../comments/Comments'
 export default function Post() {
 
     const [post, setPost] = useState(null)
-    const [username, setUsername] = useState('')
-    const [email, setEmail] = useState('')
-    const [postAuthor, setPostAuthor] = useState('')
+    // const [username, setUsername] = useState('')
+    // const [email, setEmail] = useState('')
+    // const [postAuthor, setPostAuthor] = useState('')
 
     let { id } = useParams()
 
@@ -38,7 +38,7 @@ export default function Post() {
                             <ReactMarkdown children={post.content} />
                         </div>
                     </div>
-                        <Comments postId={post.id}  />
+                    <Comments postId={post.id}  />
                 </div>
             </div>
         </div>

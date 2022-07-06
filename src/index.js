@@ -6,6 +6,9 @@ import App from './App';
 import Amplify, { Auth } from 'aws-amplify'
 import config from './aws-exports'
 
+
+//Referenced from https://github.com/aws-amplify/amplify-cli/issues/2792
+
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
     // [::1] is the IPv6 localhost address.
@@ -36,6 +39,7 @@ var configUpdate = config;
 // update the configUpdate constant with the good URLs
 configUpdate.oauth = oauth;
 // Configure Amplify with configUpdate
+Amplify.Logger.LOG_LEVEL = "DEBUG"
 Amplify.configure(configUpdate);
 
 

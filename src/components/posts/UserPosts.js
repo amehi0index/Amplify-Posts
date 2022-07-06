@@ -58,7 +58,7 @@ const UserPosts = ({ user }) => {
                       onClick={() => deletePost(post.id)}
                     >Delete Post</button>
                   </div>
-              </Link>
+                </Link>
               ))
             }
           </div>

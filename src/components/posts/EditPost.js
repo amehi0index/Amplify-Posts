@@ -54,7 +54,7 @@ function EditPost() {
               className="border-b p-2 text-lg my-4 focus:outline-none w-full  h-64 font-light text-gray-500 placeholder-gray-500 y-2 rounded"
             />
             <button
-             className="mb-4 bg-teal-600 text-white font-semibold px-8 py-2 rounded-lg"
+              className="mb-4 bg-teal-600 text-white font-semibold px-8 py-2 rounded-lg"
               onClick={updateCurrentPost}>Update Post</button>
           </div>
         </div>

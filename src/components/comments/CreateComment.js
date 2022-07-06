@@ -50,12 +50,9 @@ function CreateComment() {
                             >Add Comment
                         </button>
                     </div>
-                       
-                  
                 </div> 
             </div>
-        </div>
-        
+        </div>    
     )
 }
 
